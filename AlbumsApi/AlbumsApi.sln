@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB86D3AB-FC92-4983-8DB8-0112F31A895F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A28E617E-D40E-4BE7-9AA8-301BAB9C25B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsApi.Client", "src\AlbumsApi.Client\AlbumsApi.Client.csproj", "{906E4D45-51FC-4626-9328-FA0F0664D364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsApi.Common", "src\AlbumsApi.Common\AlbumsApi.Common.csproj", "{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsApi.Api", "src\AlbumsApi.Api\AlbumsApi.Api.csproj", "{9238E963-251F-4F75-AEBA-9C6327064807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsApi.Manager", "src\AlbumsApi.Manager\AlbumsApi.Manager.csproj", "{ED87E547-BDFB-4B4F-938A-BAFACD583B3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsApi.UnitTests", "test\AlbumsApi.UnitTests\AlbumsApi.UnitTests.csproj", "{87FD8164-3A61-477E-8900-F14FFE1F9B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906E4D45-51FC-4626-9328-FA0F0664D364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906E4D45-51FC-4626-9328-FA0F0664D364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906E4D45-51FC-4626-9328-FA0F0664D364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906E4D45-51FC-4626-9328-FA0F0664D364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9238E963-251F-4F75-AEBA-9C6327064807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9238E963-251F-4F75-AEBA-9C6327064807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9238E963-251F-4F75-AEBA-9C6327064807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9238E963-251F-4F75-AEBA-9C6327064807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED87E547-BDFB-4B4F-938A-BAFACD583B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED87E547-BDFB-4B4F-938A-BAFACD583B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED87E547-BDFB-4B4F-938A-BAFACD583B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED87E547-BDFB-4B4F-938A-BAFACD583B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FD8164-3A61-477E-8900-F14FFE1F9B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FD8164-3A61-477E-8900-F14FFE1F9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FD8164-3A61-477E-8900-F14FFE1F9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FD8164-3A61-477E-8900-F14FFE1F9B46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{906E4D45-51FC-4626-9328-FA0F0664D364} = {FB86D3AB-FC92-4983-8DB8-0112F31A895F}
+		{76AE7E8D-DA5B-4D6E-BFAC-238F153FB9A5} = {FB86D3AB-FC92-4983-8DB8-0112F31A895F}
+		{9238E963-251F-4F75-AEBA-9C6327064807} = {FB86D3AB-FC92-4983-8DB8-0112F31A895F}
+		{ED87E547-BDFB-4B4F-938A-BAFACD583B3D} = {FB86D3AB-FC92-4983-8DB8-0112F31A895F}
+		{87FD8164-3A61-477E-8900-F14FFE1F9B46} = {A28E617E-D40E-4BE7-9AA8-301BAB9C25B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A72C2293-2F18-455E-9534-A25C8599606F}
+	EndGlobalSection
+EndGlobal
